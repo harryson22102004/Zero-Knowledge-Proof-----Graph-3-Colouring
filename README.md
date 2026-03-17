@@ -1,6 +1,12 @@
-Commitment Scheme: Commits to a random permutation of the 3-colouring using SHA-256, hiding actual colours from the
-verifier.
-Completeness & Soundness: Runs k rounds to drive soundness error below 2^(-k); verifier checks each revealed edge.
-Algorithms Focus: Shows any NP problem has a ZKP by reduction to 3-colouring, establishing universality of the ZK
-paradigm.
-Tech Stack: Python, hashlib.
+📋 Overview
+This project implements the Schwartz-Zippel randomized algorithm for polynomial identity testing and includes basic circuit complexity analysis. Polynomial identity testing is a fundamental problem in algebraic complexity theory with applications in derandomization and circuit lower bounds.
+
+✨ Features
+Schwartz-Zippel lemma implementation for polynomial identity verification
+Probabilistic algorithm with configurable error probability
+Circuit depth analysis for Boolean circuits
+Support for multivariate polynomials using SymPy
+🛠️ Tech Stack
+Python 3.8+
+SymPy for symbolic mathematics
+Random number generation for probabilistic testing
